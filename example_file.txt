@@ -1,0 +1,9 @@
++-------------------------------------------------------------------------------------+
+| komparify_user_id,komparify_password, Accout_no,Mobile, Amazon_Id, Amazone_password |
++-------------------------------------------------------------------------------------+
+
+Sagkrs9@outlook.com, Sagar28*,9178978898,7004969879,Rajur3@gatur.online,Sagar6686@
+Sagkrs9@outlook.com, Sagar28*,9178978898,7004969879,Rajur3@gatur.online,Sagar6686@
+Sagkrs9@outlook.com, Sagar28*,9178978898,7004969879,Rajur3@gatur.online,Sagar6686@
+Sagkrs9@outlook.com, Sagar28*,9178978898,7004969879,Rajur3@gatur.online,Sagar6686@
+Sagkrs9@outlook.com, Sagar28*,9178978898,7004969879,Rajur3@gatur.online,Sagar6686@
