@@ -10,8 +10,8 @@ from random import randint
 from threading import Thread
 
 
-username = 'kumtable378@gmail.com'
-password = '22111976bjk'
+username = 'youremail@gmail.com'
+password = 'yourpass6bjk'
 
 x1 = '//*[@id="a-autoid-0-announce"]'
 x2 = '//*[@id="a-autoid-0-announce"]'
