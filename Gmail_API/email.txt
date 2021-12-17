@@ -1,0 +1,95 @@
+Delivered-To: kumtable378@gmail.com
+Received: by 2002:a50:cd43:0:0:0:0:0 with SMTP id d3csp999247edj;
+        Fri, 3 Dec 2021 09:29:01 -0800 (PST)
+X-Received: by 2002:a2e:93c6:: with SMTP id p6mr19564215ljh.476.1638552541495;
+        Fri, 03 Dec 2021 09:29:01 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1638552541; cv=none;
+        d=google.com; s=arc-20160816;
+        b=fpl6mnDGht2vHgzga49GxLtHJEXhfATnsdB69XZtL7AHtJTsExTuf0i4kWqakOn8Su
+         zU8TnKuSonVilwmrGPY69JIkoaqCUHVtfd1ZPVXmkZgnwfyR7eAD8uqzJvhNMb3c227T
+         NSRAXQTe50Fat56BS4X7Hr2ZcDYuVH7tkzuW6bIP3blSHYba9YEyN0hOzCCmQ7uw5mSX
+         l9Nof+JM9OCb4kmwSkdtQGnn6XNPoD4AtvzDkHOjaVXxmJOijlY8nYafYFz42nzvDLll
+         ztJatow5zJwfh0/ToFf+soX4PyVLkkFC8DACNZtLypKqXndm95ZoniDnfkhlM7Az99JA
+         5KYQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=xo+1bnpC9lor25gk1cF2Riqbqoamnj3UtHujPhGv1/4=;
+        b=gF0o8jung1pq20/FW48MPHhGNBPoqluOIsI0/rg8isp8xTHiyE8WY5PuLAFHUQDg8M
+         +nkWbjdCHhd3yxpQL0Gcba84gO/GmxCkNvpqcHF/qLZovK5gRzO3Y0YZmiWe8Wamj7W4
+         DW+VsmlqlCmYogIUiLiIrvVjlL9AwHvXh7W3rg/ilLetWM6iuMJP6qNFBvchQM34QmPJ
+         HdmyOjSzZ9j7qg9Rl+yUgFi5vhlLTZfWuO+2mit02H8UUlGk+WGNRD9Xnt5lZ25CGXp9
+         btCgAsVXfXlPNgCdw7ZBmFCm7Jr3O/7tSjs8qF9FrMrmUG+lzkNJI0zAqqDyVgHzs9ii
+         1Smw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=jLGtwpnH;
+       spf=pass (google.com: domain of nitish.ns377@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nitish.ns377@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <nitish.ns377@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h1sor2008090ljg.19.2021.12.03.09.29.01
+        for <kumtable378@gmail.com>
+        (Google Transport Security);
+        Fri, 03 Dec 2021 09:29:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of nitish.ns377@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=jLGtwpnH;
+       spf=pass (google.com: domain of nitish.ns377@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nitish.ns377@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=xo+1bnpC9lor25gk1cF2Riqbqoamnj3UtHujPhGv1/4=;
+        b=jLGtwpnHC+is6I9GMqpkn3smH58nxzJ1Srtpbk42HbPLZ1Pz48I+JwImuqaabXCScV
+         8jqnB6i9k7fNvcy/UINmzLxm3mYgXK9yssik89BD6Vbdv8PUxbOKNlXPyTCNGeU2gHQK
+         FkuI6zuiKodziTa8gjfTyAtLdHsOB+9mryci/ZjeC2yzijirp5LeTOzXG+bEVu1sbE0h
+         XzMyeBavsqKwURz6loMYz5IwjnTdnECXSKeIwaAKLjTGifNzKMl8EAUYA0Nk3eBvMPwU
+         GSh2IjylLEHfXNOHeQ/I7LGPHaZvTIRrMRGkkAUt5rbmrRHHtytD4optp3iFgigeRT94
+         R89A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=xo+1bnpC9lor25gk1cF2Riqbqoamnj3UtHujPhGv1/4=;
+        b=7DfPqlmqHxRFl6Y4w1bE57EAp5ztMvDsnXuAbUj7a26Fhj0cALOuGBaERl425G8sAc
+         nEx8NTSiH2GsEhzjLEe3uywZAYWzvjSHH61mIhWyY9xOzRa/QOb3CDVjNgV1caV09KF9
+         JCs6SzhBNKH0Jtd7irjYxd8P+kAlphd9vBH/fwD2DmbyaXxr5z2sxv/L9g43BBTTDIR+
+         rgwKoO7+WoLfSpZJRg59eXMbc0w+Rq/dvjbJX+t5TTkk/BbEJTpF8D4JQGpg+k1vG02P
+         ubBNnrZRGti73qS5h7nIfKVrtdjn3xQ7PxyQJWbALizzqk6QJReYdE2o7TxVAvDJxml8
+         AZpQ==
+X-Gm-Message-State: AOAM530VZHCISy06an7YpPTP8+3Gj2IfpQ3f/VqmyMqwm+IH2MNpuBI/
+	kCIphWDt3Rmf6dto/XH+TN7YicglCBXqFFGAAWXoLeFo
+X-Google-Smtp-Source: ABdhPJy8NR3idKZPNtnjs1NWd+jJjrDhmWgY2hzT2o+/6AJJuJxEK9th1F+YWSPCYBFHN6h+UovfzKJaAG/xWYwOEag=
+X-Received: by 2002:a2e:86cc:: with SMTP id n12mr19252108ljj.275.1638552540768;
+ Fri, 03 Dec 2021 09:29:00 -0800 (PST)
+MIME-Version: 1.0
+References: <61aa4e8c.1c69fb81.4d51b.94da@mx.google.com>
+In-Reply-To: <61aa4e8c.1c69fb81.4d51b.94da@mx.google.com>
+From: Nitish Kumar Sharma <nitish.ns377@gmail.com>
+Date: Fri, 3 Dec 2021 22:58:48 +0530
+Message-ID: <CAAP+xDf35M9-f2zXUB+DFB=u3AsCNhdu-G=8NQiH2_JqohRfwg@mail.gmail.com>
+Subject: Re: Test
+To: kumtable378@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000236be505d2413e78"
+
+--000000000000236be505d2413e78
+Content-Type: text/plain; charset="UTF-8"
+
+Hello python this the test of gmail automatic send
+
+On Fri, Dec 3, 2021, 10:36 PM <kumtable378@gmail.com> wrote:
+
+> Hello World
+
+--000000000000236be505d2413e78
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Hello python this the test of gmail automatic send</div><=
+br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Fri,=
+ Dec 3, 2021, 10:36 PM  &lt;<a href=3D"mailto:kumtable378@gmail.com">kumtab=
+le378@gmail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hell=
+o World</blockquote></div>
+
+--000000000000236be505d2413e78--
